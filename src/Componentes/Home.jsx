@@ -5,7 +5,7 @@ import Paginate from "./Paginate";
 
 
 export default function Home () {
-    var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+    /* var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
     var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
     
     // Change the icons inside the button based on previous settings
@@ -46,7 +46,7 @@ export default function Home () {
         
     });
     
-
+ */
     return (
         <>
 {<button id="theme-toggle" type="button" class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
